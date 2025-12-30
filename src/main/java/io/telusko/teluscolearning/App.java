@@ -13,8 +13,12 @@ public class App {
         telusko.setAid(101);
         telusko.setAname("sheetal");
         telusko.setColor("black");
+        Alienname an = new Alienname();
+        an.setfname("navin");
+        an.setmname("thalapathy");
+        an.setlname("reddy");
 
-        Alien a;
+        // Alien a;
 
         Configuration conf = new Configuration().configure().addAnnotatedClass(Alien.class);
 
