@@ -14,7 +14,7 @@ public class Laptop {
     private int lid;
     private String lname;
 
-    @ManyToMany
+    @ManyToMany(mappedBy="rollno")
     private List<Student> student = new ArrayList<>();
 
     public List<Student> getStudent() {
