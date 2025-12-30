@@ -1,5 +1,5 @@
 package io.telusko.teluscolearning;
-
+@Embeddable
 public class AlienName {
           private String fname;
           private String lname;
